@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:rgb(120, 165, 211);
+    --white: white;
+    --gray: gray;
+}
+
+.navbar {
+    background-color: var(--primary);
+    color: var(--white);
+}
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.navbar-brand {
+    font-size: 60px;
+    padding: 30px;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.card-body {
+    background-color: var(--white);
+    color: var(--gray);
+}
+.box-profile{
+    box-shadow:2px 2px 20px 2px lightblue;
+    padding: 0;
+    margin: 20px;
+}
